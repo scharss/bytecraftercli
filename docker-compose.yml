@@ -1,0 +1,19 @@
+services:
+  bytecrafter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Carga todas las variables definidas en .env.
+    # El usuario puede habilitar o deshabilitar proveedores simplemente
+    # comentando líneas en .env con '#'.
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    environment:
+      # Aseguramos PYTHONPATH necesario para importaciones.
+      - PYTHONPATH=/app/src
+    tty: true
+    stdin_open: true
+    container_name: bytecrafter
+    command: tail -f /dev/null 

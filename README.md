@@ -94,7 +94,7 @@ With the `.env` file configured, you can now start the agent.
 You are now in an interactive session with the Bytecrafter agent. Start giving it instructions!
 
 ```
-Welcome to Bytecrafter CLI (Gemini Edition)! 🤖
+Welcome to Bytecrafter CLI ! 🤖
 Your AI assistant for coding tasks. Type 'exit' or 'quit' to end.
 You: >>>
 ```

@@ -33,7 +33,7 @@ Follow these steps to get Bytecrafter CLI up and running.
 ### 1. Clone the Repository
 
 ```bash
-git clone [<YOUR_REPOSITORY_URL>](https://github.com/scharss/bytecraftercli.git)
+git clone https://github.com/scharss/bytecraftercli.git
 cd bytecraftercli
 ```
 
